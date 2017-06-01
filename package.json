@@ -1,0 +1,23 @@
+{
+  "name": "global-path",
+  "version": "1.0.0",
+  "description": "Set Global Path",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oknoorap/global-path.git"
+  },
+  "keywords": [
+    "path",
+    "global-path"
+  ],
+  "author": "oknoorap",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oknoorap/global-path/issues"
+  },
+  "homepage": "https://github.com/oknoorap/global-path#readme"
+}
