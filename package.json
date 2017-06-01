@@ -28,5 +28,13 @@
     "esnext": true,
     "space": true,
     "semicolon": false
-  }
+  },
+  "ava": {
+    "files": [
+      "test/test.js"
+    ]
+  },
+  "files": [
+    "index.js"
+  ]
 }
