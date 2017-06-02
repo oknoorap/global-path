@@ -1,6 +1,6 @@
 const path = require('path')
 
-module.exports = (alias = '', pathname = '') => {
+module.exports = (alias = '', pathname = '', prefix = '__') => {
   if (alias === '') {
     throw new Error('Alias should be registered.')
   }
