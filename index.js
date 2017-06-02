@@ -9,12 +9,10 @@ module.exports = (alias = '', pathname = '', prefix = '__') => {
     throw new Error('Path name should be registered.')
   }
 
-  const args = pathname
+  const aliasName = prefix + alias
+  const aliasPath = pathname
+    .replace(/\/$/, '')
     .replace(/@/, path.dirname(module.parent.filename))
-    .split('/')
-
-  const aliasName = '_' + alias
-  const aliasPath = path.resolve(...args)
 
   global[aliasName] = {
     path: aliasPath,
