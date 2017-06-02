@@ -1,3 +1,3 @@
 module.exports = () => {
-  return 'hello world'
+  return global.world.require('constant/string').hello
 }
